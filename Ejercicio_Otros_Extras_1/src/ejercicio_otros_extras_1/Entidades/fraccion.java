@@ -41,8 +41,9 @@ public class fraccion {
 
     @Override
     public String toString() {
-        return "fraccion{" + "denominador=" + denominador + ", numerador=" + numerador + '}';
-        //return numerador + "/" + denominador;
+        //return "fraccion{" + "denominador=" + denominador + ", numerador=" + numerador + '}';
+        return "Fraccion: [" + numerador + "/" +denominador+"]";
+        
     }
     
     
